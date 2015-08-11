@@ -1,0 +1,60 @@
+<link rel="import"
+      href="bower_components/polymer/polymer.html">
+
+<dom-module id="dom-element">
+
+  <template>
+
+    <p>
+      La gestión Waterfall de proyectos de software, divide todo el proyecto
+      en fases: Toma de requisitos, especificación, diseño, implementación y testing.
+      La gestión Waterfall sostiene que, si se dedican suficientes esfuerzos en la fase N,
+      la fase N+1 será más sencilla. Por ejemplo, si hacemos una buena toma de requisitos,
+      la especificación será sencilla de realizar, si hacemos una buena especificación,
+      el diseño será más sencillo de realizar... etc. Así pues, con una gestión Waterfall,
+      dedicaremos tiempo a tomar requisitos con el cliente para todo el proyecto, después
+      se hará el análisis funcional para todo el proyecto, tras esto, el diseño de todo el proyecto...
+    </p>
+    <p>
+      Este modelo, en mi opinión, tiene varias deficiencias, con las que nos hemos
+      ido encontrando en base a la experiencia como programadores de software:
+    </p>
+
+    <ul>
+      <li>
+        El principal problema es que, tras cada fase, se transfiere la información de forma escrita.
+        Es decir, el funcionalista realiza la especificación del proyecto, se genera un documento enorme
+        que se pasa al diseñador y éste ha de interpretar: El diseñador realiza el diseño de todo el proyecto
+        en base a lo que él ha entendido del análisis funcional y lo pasa al programador, que este a su vez
+        interpretará el diseño y lo programará... Esta cadena provoca que el mensaje que inicia nuestro cliente se desvirtúe.
+      </li>
+      <li>
+        También tenemos otro problema importante: Nuestro cliente sólo ve papel
+        (texto, gráficos, esquemas...) durante la mayor parte del tiempo de desarrollo.
+        Esto genera desconfianza en nuestro cliente, que se pone nervioso porque pasan los meses y no ve nada con lo que pueda jugar.
+      </li>
+      <li>
+        También tenemos el problema de que con este modelo, los cambios a medio proceso son caros de implementar,
+        porque provoca que el proyecto remonte las fases por las que pasó hasta el momento que se decició implementar el cambio.
+      </li>
+      <li>
+        Por último, otro problema importante para mi forma de ver, es que las personas se "pasan la pelota" durante el proceso de desarrollo.
+        Esto significa que, si en la fase N se encuentra una incongruencia en el análisis funcional, las personas suelen echar la culpa
+        a los que trabajaron en la fase N-1, y probablemente tomen una actitud de "bueno, yo hago lo que pone, y ya se lo encontrarán", y
+        el el proyecto llega a la fase N+1 con ese problema sin arreglar.
+      </li>
+    </ul>
+
+    <p>
+      En conclusión, opino que Waterfall no fomenta el <a href="HTTP://DOMINIO-2/kaizen.html">Kaizen</a> entre todos los miembros involucrados en un proyecto de software.
+    </p>
+
+  </template>
+
+  <script>
+    Polymer({
+      is: "dom-element"
+    });
+  </script>
+
+</dom-module>

@@ -1,0 +1,21 @@
+{
+  "name": "Polymer",
+  "version": "0.0.0",
+  "authors": [
+    "marcosbermejo <marcosbermejom@gmail.com>"
+  ],
+  "description": "Polymer testing app",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "jquery": "~2.1.4"
+  }
+}
