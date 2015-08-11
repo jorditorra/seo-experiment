@@ -1,13 +1,13 @@
-####dominio.com
+####http://doctoralia-test1.azurewebsites.net/
 /bower_components
 index.html
 ajax-content.js
 
-####dominio-1.com
+####http://doctoralia-test2.azurewebsites.net/
 agile.html
 
-####dominio-2-com
+####http://doctoralia-test3.azurewebsites.net/
 kaizen.html
 
-####dominio-3.com
+####http://doctoralia-test4.azurewebsites.net/
 scrum.html
